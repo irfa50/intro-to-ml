@@ -3,7 +3,7 @@ Build a 2-layer MLP for MNIST digit classfication. Feel free to play around with
 Image (784 dimensions) -> fully connected layer (500 hidden units) -> nonlinearity (ReLU) -> fully connected layer (100 hidden units) -> nonlinearity (ReLU) -> fully connected (10 hidden units) -> softmax
 In [ ]:
 
-
+import numpy as np
 import tensorflow as tf 
 from tqdm import trange 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) 
